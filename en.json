@@ -1,1 +1,53 @@
-{}
+{
+    "label": {
+        "app_name": "Storage"
+    },
+    "quota": {
+        "banner": {
+            "overQuota": "Your storage is full. Delete large items or contact your administrator to increase your storage limit.",
+            "thresholdReached": "Your storage is almost full. Consider deleting large items or contact your administrator to increase your storage limit."
+        },
+        "limitedSpace": "{{used}} of {{limit}} used ({{percentage}}%)",
+        "module": {
+            "available": "Available",
+            "files": "Files",
+            "mailbox": "Mails, Calendars, Contacts",
+            "wsc": "Chats"
+        },
+        "unlimitedSpace": "{{used}} of <bold>Unlimited</bold> storage used"
+    },
+    "settings": {
+        "error": {
+            "quotaAPIErrorDescription": "Unable to load storage information at the moment.",
+            "quotaAPIErrorResolution": "Try refreshing the page or contact your administrator if the issue persists."
+        },
+        "titles": {
+            "primaryAccountSection": "Storage",
+            "settingsView": "Storage",
+            "sharedAccountsSection": "Shared Accounts Storage"
+        }
+    },
+    "size": {
+        "unitMeasure_B": "B",
+        "unitMeasure_KB": "KB",
+        "unitMeasure_MB": "MB",
+        "unitMeasure_GB": "GB",
+        "unitMeasure_TB": "TB",
+        "unitMeasure_PB": "PB",
+        "unitMeasure_EB": "EB",
+        "unitMeasure_ZB": "ZB",
+        "unitMeasure_YB": "YB"
+    },
+    "total_quota_usage_component": {
+        "caption": {
+            "api_error": "Storage unavailable",
+            "limited": "{{formattedUsed}} of {{formattedLimit}} ({{formattedPercentage}})",
+            "unlimited": "{{formattedUsed}} of Unlimited storage used"
+        },
+        "shared_quota_alert": {
+            "error": "Shared account storage is full",
+            "warning": "Shared account storage is almost full"
+        },
+        "tooltip": "View storage details"
+    }
+}
