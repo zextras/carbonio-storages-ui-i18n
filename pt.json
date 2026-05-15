@@ -1,1 +1,53 @@
-{}
+{
+    "quota": {
+        "banner": {
+            "overQuota": "Seu espaço de armazenamento está cheio. Exclua itens grandes ou entre em contato com o administrador para aumentar seu limite de armazenamento.",
+            "thresholdReached": "Seu espaço de armazenamento está quase cheio. Considere excluir itens grandes ou entre em contato com o administrador para aumentar seu limite de armazenamento."
+        },
+        "limitedSpace": "{{used}} de {{limit}} utilizados ({{percentage}}%)",
+        "module": {
+            "available": "Disponível",
+            "mailbox": "Mails, Calendários, Contatos",
+            "files": "Files",
+            "wsc": "Chats"
+        },
+        "unlimitedSpace": "{{used}} de <bold>Armazenamento ilimitado</bold> utilizado"
+    },
+    "settings": {
+        "error": {
+            "quotaAPIErrorDescription": "Não foi possível carregar as informações de armazenamento neste momento.",
+            "quotaAPIErrorResolution": "Tente atualizar a página ou entre em contato com o administrador se o problema persistir."
+        },
+        "titles": {
+            "primaryAccountSection": "Armazenamento",
+            "settingsView": "Armazenamento",
+            "sharedAccountsSection": "Armazenamento de contas compartilhadas"
+        }
+    },
+    "label": {
+        "app_name": "Armazenamento"
+    },
+    "size": {
+        "unitMeasure_B": "B",
+        "unitMeasure_KB": "KB",
+        "unitMeasure_MB": "MB",
+        "unitMeasure_GB": "GB",
+        "unitMeasure_TB": "TB",
+        "unitMeasure_PB": "PB",
+        "unitMeasure_EB": "EB",
+        "unitMeasure_ZB": "ZB",
+        "unitMeasure_YB": "YB"
+    },
+    "total_quota_usage_component": {
+        "caption": {
+            "api_error": "Armazenamento indisponível",
+            "limited": "{{formattedUsed}} de {{formattedLimit}} ({{formattedPercentage}})",
+            "unlimited": "{{formattedUsed}} de armanazenamento ilimitado utilizado"
+        },
+        "shared_quota_alert": {
+            "error": "O espaço de armazenamento da conta compartilhada está cheio",
+            "warning": "O espaço de armazenamento da conta compartilhada está quase cheio"
+        },
+        "tooltip": "Ver detalhes de armazenamento"
+    }
+}
