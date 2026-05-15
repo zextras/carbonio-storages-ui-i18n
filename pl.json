@@ -1,1 +1,53 @@
-{}
+{
+    "label": {
+        "app_name": "Przestrzeń"
+    },
+    "quota": {
+        "banner": {
+            "overQuota": "Twoja przestrzeń jest pełna. Usuń duże elementy lub skontaktuj się z Twoim administratorem, aby zwiększyć dostępną przestrzeń.",
+            "thresholdReached": "Twoja przestrzeń jest prawie pełna. Rozważ usunięcie dużych elementów lub skontaktuj się z Twoim administratorem, aby zwiększyć dostępną przestrzeń."
+        },
+        "limitedSpace": "Użyto {{used}} z {{limit}} ({{percentage}}%)",
+        "module": {
+            "available": "Dostępna przestrzeń",
+            "files": "Pliki",
+            "mailbox": "Poczta, kalendarze, kontakty",
+            "wsc": "Czaty"
+        },
+        "unlimitedSpace": "Użyto {{used}} z <bold>nielimitowanej</bold> przestrzeni"
+    },
+    "settings": {
+        "error": {
+            "quotaAPIErrorDescription": "Nie udało się załadować informacji o przestrzeni.",
+            "quotaAPIErrorResolution": "Spróbuj odświeżyć stronę. Jeśli problem nie znika, skontaktuj się z Twoim administratorem."
+        },
+        "titles": {
+            "primaryAccountSection": "Przestrzeń",
+            "settingsView": "Przestrzeń",
+            "sharedAccountsSection": "Przestrzeń udostępnionych kont"
+        }
+    },
+    "size": {
+        "unitMeasure_B": "B",
+        "unitMeasure_KB": "KB",
+        "unitMeasure_MB": "MB",
+        "unitMeasure_GB": "GB",
+        "unitMeasure_TB": "TB",
+        "unitMeasure_PB": "PB",
+        "unitMeasure_EB": "EB",
+        "unitMeasure_ZB": "ZB",
+        "unitMeasure_YB": "YB"
+    },
+    "total_quota_usage_component": {
+        "caption": {
+            "api_error": "Dane o przestrzeni niedostępne",
+            "limited": "{{formattedUsed}} z {{formattedLimit}} ({{formattedPercentage}})",
+            "unlimited": "Użyto {{formattedUsed}} z nielimitowanej przestrzeni"
+        },
+        "shared_quota_alert": {
+            "error": "Przestrzeń udostępnianych kont jest pełna",
+            "warning": "Przestrzeń udostępnianych kont jest prawie pełna"
+        },
+        "tooltip": "Zobacz szczegóły przestrzeni"
+    }
+}
