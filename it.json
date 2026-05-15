@@ -1,1 +1,53 @@
-{}
+{
+    "quota": {
+        "module": {
+            "files": "Files",
+            "mailbox": "Mail, Calendari, Contatti",
+            "wsc": "Chats",
+            "available": "Disponibile"
+        },
+        "banner": {
+            "overQuota": "Il tuo spazio di archiviazione è esaurito. Elimina elementi di grandi dimensioni o contatta il tuo amministratore per aumentare il limite di archiviazione.",
+            "thresholdReached": "Il tuo spazio di archiviazione è quasi esaurito. Valuta di eliminare elementi di grandi dimensioni o contatta il tuo amministratore per aumentare il limite di archiviazione."
+        },
+        "limitedSpace": "{{used}} di {{limit}} utilizzati ({{percentage}}%)",
+        "unlimitedSpace": "Utilizzati {{used}} di spazio <bold>Illimitato</bold>"
+    },
+    "label": {
+        "app_name": "Spazio di archiviazione"
+    },
+    "settings": {
+        "error": {
+            "quotaAPIErrorDescription": "Impossibile caricare le informazioni sullo spazio utilizzato al momento.",
+            "quotaAPIErrorResolution": "Prova ad aggiornare la pagina o contatta il tuo amministratore se il problema persiste."
+        },
+        "titles": {
+            "primaryAccountSection": "Spazio di archiviazione",
+            "settingsView": "Spazio di archiviazione",
+            "sharedAccountsSection": "Spazio di archiviazione degli Account Condivisi"
+        }
+    },
+    "size": {
+        "unitMeasure_B": "B",
+        "unitMeasure_KB": "KB",
+        "unitMeasure_MB": "MB",
+        "unitMeasure_GB": "GB",
+        "unitMeasure_TB": "TB",
+        "unitMeasure_PB": "PB",
+        "unitMeasure_EB": "EB",
+        "unitMeasure_ZB": "ZB",
+        "unitMeasure_YB": "YB"
+    },
+    "total_quota_usage_component": {
+        "caption": {
+            "api_error": "Info sulla spazio non disponibili",
+            "limited": "{{formattedUsed}} di {{formattedLimit}} ({{formattedPercentage}})",
+            "unlimited": "Utilizzati {{formattedUsed}} di spazio Illimitato"
+        },
+        "shared_quota_alert": {
+            "error": "Lo spazio di archiviazione dell'account condiviso è esaurito",
+            "warning": "Lo spazio di archiviazione dell'account condiviso è quasi esaurito"
+        },
+        "tooltip": "Visualizza i dettagli dello spazio di archiviazione"
+    }
+}
