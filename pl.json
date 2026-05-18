@@ -11,7 +11,7 @@
         "module": {
             "available": "Dostępna przestrzeń",
             "files": "Pliki",
-            "mailbox": "Poczta, kalendarze, kontakty",
+            "mailbox": "E-maile, kalendarze, kontakty",
             "wsc": "Czaty"
         },
         "unlimitedSpace": "Użyto {{used}} z <bold>nielimitowanej</bold> przestrzeni"
