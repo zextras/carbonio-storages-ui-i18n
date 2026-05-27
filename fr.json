@@ -1,1 +1,50 @@
-{}
+{
+    "quota": {
+        "banner": {
+            "overQuota": "Votre stockage est plein. Supprimez des éléments ou contactez votre administrateur pour augmenter la taille de votre stockage.",
+            "thresholdReached": "Votre stockage est presque plein. Pensez à supprimer des éléments ou contactez votre administrateur pour augmenter la taille de votre stockage."
+        },
+        "limitedSpace": "{{used}} utilisés sur {{limit}} ({{percentage}}%)",
+        "module": {
+            "available": "Disponible",
+            "files": "Files",
+            "mailbox": "Emails, Calendriers, Contacts",
+            "wsc": "Chats"
+        },
+        "unlimitedSpace": "{{used}} utilisés sur <bold>Stockage illimité</bold>"
+    },
+    "settings": {
+        "error": {
+            "quotaAPIErrorDescription": "Impossible d'afficher les informations de stockage pour le moment.",
+            "quotaAPIErrorResolution": "Essayez de rafraîchir la page ou contactez votre administrateur si le problème persiste."
+        },
+        "titles": {
+            "primaryAccountSection": "Stockage",
+            "settingsView": "Stockage",
+            "sharedAccountsSection": "Stockage des comptes partagés"
+        }
+    },
+    "total_quota_usage_component": {
+        "caption": {
+            "api_error": "Stockage indisponible",
+            "limited": "{{formattedUsed}} sur {{formattedLimit}} ({{formattedPercentage}})",
+            "unlimited": "{{formattedUsed}} utilisés sur stockage illimité"
+        },
+        "shared_quota_alert": {
+            "error": "Le stockage des comptes partagés est plein",
+            "warning": "Le stockage des comptes partagés est presque plein"
+        },
+        "tooltip": "Voir les détails du stockage"
+    },
+    "size": {
+        "unitMeasure_B": "o",
+        "unitMeasure_KB": "Ko",
+        "unitMeasure_MB": "Mo",
+        "unitMeasure_GB": "Go",
+        "unitMeasure_TB": "To",
+        "unitMeasure_PB": "Po",
+        "unitMeasure_EB": "Eo",
+        "unitMeasure_ZB": "Zo",
+        "unitMeasure_YB": "Yo"
+    }
+}
