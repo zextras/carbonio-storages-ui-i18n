@@ -46,5 +46,8 @@
         "unitMeasure_EB": "Eo",
         "unitMeasure_ZB": "Zo",
         "unitMeasure_YB": "Yo"
+    },
+    "label": {
+        "app_name": "Stockage"
     }
 }
