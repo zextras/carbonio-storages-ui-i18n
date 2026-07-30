@@ -1,1 +1,42 @@
-{}
+{
+    "label": {
+        "app_name": "Speicherplatz"
+    },
+    "quota": {
+        "banner": {
+            "overQuota": "Ihr Speicher ist voll. Löschen Sie große Elemente oder kontaktieren Sie Ihren Administrator, um Ihr Speicherlimit zu erhöhen.",
+            "thresholdReached": "Ihr Speicher ist fast voll. Erwägen Sie, große Elemente zu löschen, oder kontaktieren Sie Ihren Administrator, um Ihr Speicherlimit zu erhöhen."
+        },
+        "limitedSpace": "{{used}} von {{limit}} verwendet {{percentage}}",
+        "module": {
+            "available": "Verfügbar",
+            "files": "Dateien (Files)",
+            "mailbox": "Mail,Kalender,Kontakte",
+            "wsc": "Chats"
+        },
+        "unlimitedSpace": "{{used}} von <bold>unbegrenztem</bold> Speicher verwendet"
+    },
+    "settings": {
+        "error": {
+            "quotaAPIErrorDescription": "Speicherinformationen können derzeit nicht geladen werden.",
+            "quotaAPIErrorResolution": "Versuchen Sie, die Seite zu aktualisieren, oder kontaktieren Sie Ihren Administrator, falls das Problem weiterhin besteht."
+        },
+        "titles": {
+            "primaryAccountSection": "Speicher",
+            "settingsView": "Speicher",
+            "sharedAccountsSection": "Speicher von freigegebenen Konten"
+        }
+    },
+    "total_quota_usage_component": {
+        "caption": {
+            "api_error": "Speicherinformationen nicht verfügbar",
+            "limited": "{{formattedUsed}} von {{formattedLimit}} {{formattedPercentage}}",
+            "unlimited": "{{formattedUsed}} von unbegrenztem Speicherplatz benutzt"
+        },
+        "shared_quota_alert": {
+            "error": "Speicher von geteiltem Account voll",
+            "warning": "Speicher von geteiltem Account fast voll"
+        },
+        "tooltip": "Speicherinformationen anzeigen"
+    }
+}
