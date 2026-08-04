@@ -5,5 +5,16 @@
             "mailbox": "Μηνύματα, Ημερολόγια, Επαφές",
             "wsc": "Συνομιλίες"
         }
+    },
+    "size": {
+        "unitMeasure_B": "[GR] B",
+        "unitMeasure_KB": "[GR] KB",
+        "unitMeasure_MB": "[GR] MB",
+        "unitMeasure_TB": "[GR] TB",
+        "unitMeasure_GB": "[GR] GB",
+        "unitMeasure_ZB": "[GR] ZB",
+        "unitMeasure_PB": "[GR] PB",
+        "unitMeasure_EB": "[GR] EB",
+        "unitMeasure_YB": "[GR] YB"
     }
 }
