@@ -2,19 +2,52 @@
     "quota": {
         "module": {
             "files": "Αρχεία",
-            "mailbox": "Μηνύματα, Ημερολόγια, Επαφές",
-            "wsc": "Συνομιλίες"
-        }
+            "mailbox": "E-mail, Ημερολόγια, Επαφές",
+            "wsc": "Συνομιλίες",
+            "available": "Διαθέσιμος"
+        },
+        "banner": {
+            "overQuota": "Ο αποθηκευτικός σας χώρος είναι πλήρης. Διαγράψτε μεγάλα στοιχεία ή επικοινωνήστε με τον διαχειριστή σας για να αυξήσετε το όριο αποθηκευτικού χώρου σας.",
+            "thresholdReached": "Ο αποθηκευτικός σας χώρος είναι σχεδόν πλήρης. Εξετάστε το ενδεχόμενο διαγραφής μεγάλων στοιχείων ή επικοινωνήστε με τον διαχειριστή σας για να αυξήσετε το όριο αποθηκευτικού χώρου σας."
+        },
+        "limitedSpace": "{{used}} από {{limit}} χρησιμοποιημένα ({{percentage}}%)",
+        "unlimitedSpace": "{{used}} από <bold>Απεριόριστο</bold> αποθηκευτικό χώρο χρησιμοποιημένα"
     },
     "size": {
-        "unitMeasure_B": "[GR] B",
-        "unitMeasure_KB": "[GR] KB",
-        "unitMeasure_MB": "[GR] MB",
-        "unitMeasure_TB": "[GR] TB",
-        "unitMeasure_GB": "[GR] GB",
-        "unitMeasure_ZB": "[GR] ZB",
-        "unitMeasure_PB": "[GR] PB",
-        "unitMeasure_EB": "[GR] EB",
-        "unitMeasure_YB": "[GR] YB"
+        "unitMeasure_B": "B",
+        "unitMeasure_KB": "KB",
+        "unitMeasure_MB": "MB",
+        "unitMeasure_TB": "TB",
+        "unitMeasure_GB": "GB",
+        "unitMeasure_ZB": "ZB",
+        "unitMeasure_PB": "PB",
+        "unitMeasure_EB": "EB",
+        "unitMeasure_YB": "YB"
+    },
+    "label": {
+        "app_name": "Αποθηκευτικός Χώρος"
+    },
+    "settings": {
+        "error": {
+            "quotaAPIErrorDescription": "Δεν είναι δυνατή η φόρτωση πληροφοριών αποθηκευτικού χώρου αυτή τη στιγμή.",
+            "quotaAPIErrorResolution": "Δοκιμάστε να ανανεώσετε τη σελίδα ή επικοινωνήστε με τον διαχειριστή σας αν το πρόβλημα επιμένει."
+        },
+        "titles": {
+            "primaryAccountSection": "Αποθηκευτικός Χώρος",
+            "settingsView": "Αποθηκευτικός Χώρος",
+            "sharedAccountsSection": "Αποθηκευτικός Χώρος Κοινόχρηστων Λογαριασμών"
+        }
+    },
+    "total_quota_usage_component": {
+        "caption": {
+            "api_error": "Ο αποθηκευτικός χώρος δεν είναι διαθέσιμος",
+            "limited": "{{formattedUsed}} από {{formattedLimit}} ({{formattedPercentage}})",
+            "unlimited": "{{formattedUsed}} από Απεριόριστο αποθηκευτικό χώρο χρησιμοποιημένα"
+        },
+        "shared_quota_alert": {
+            "error": "Ο αποθηκευτικός χώρος κοινόχρηστου λογαριασμού είναι πλήρης",
+            "warning": "Ο αποθηκευτικός χώρος κοινόχρηστου λογαριασμού είναι σχεδόν πλήρης"
+        },
+        "tooltip": "Προβολή λεπτομερειών αποθηκευτικού χώρου"
     }
 }
