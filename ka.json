@@ -1,1 +1,53 @@
-{}
+{
+    "quota": {
+        "module": {
+            "files": "ფაილები",
+            "wsc": "ჩატები",
+            "available": "ხელმისაწვდომია",
+            "mailbox": "ელფოსტა, კალენდრები, კონტაქტები"
+        },
+        "banner": {
+            "overQuota": "თქვენი საცავი სავსეა. წაშალეთ დიდი ელემენტები, ან დაუკავშირდით ადმინისტრატორს, რომ საცავის ზღვარი გაგიზარდოთ.",
+            "thresholdReached": "თქვენი საცავი თითქმის სრულდება. წაშალეთ დიდი ელემენტები ან დაუკავშირდით ადმინისტრატორს storage limit-ის გაზრდისათვის."
+        },
+        "limitedSpace": "{{used}} / {{limit}} გამოყენებულია {{percentage}}",
+        "unlimitedSpace": "გამოყენებულია {{used}} /<bold>შეუზღუდავი</bold> საცავიდან"
+    },
+    "label": {
+        "app_name": "საცავი"
+    },
+    "settings": {
+        "error": {
+            "quotaAPIErrorDescription": "ამჟამად საცავის ინფორმაციის ჩატვირთვა შეუძლებელია.",
+            "quotaAPIErrorResolution": "თუ პრობლემა არ აღმოიფხვრება, სცადეთ, განაახლოთ ეს გვერდი, ან დაუკავშირდეთ თქვენს ადმინისტრატორს."
+        },
+        "titles": {
+            "primaryAccountSection": "საცავი",
+            "settingsView": "საცავი",
+            "sharedAccountsSection": "გაზიარებული ანგარიშების საცავი"
+        }
+    },
+    "size": {
+        "unitMeasure_B": "ბ",
+        "unitMeasure_KB": "კბ",
+        "unitMeasure_MB": "მბ",
+        "unitMeasure_GB": "გბ",
+        "unitMeasure_TB": "ტბ",
+        "unitMeasure_PB": "პბ",
+        "unitMeasure_EB": "ებ",
+        "unitMeasure_ZB": "ზბ",
+        "unitMeasure_YB": "იბ"
+    },
+    "total_quota_usage_component": {
+        "caption": {
+            "api_error": "საცავი ხელმიუწვდომელია",
+            "limited": "{{formattedUsed}} / {{formattedLimit}} ({{formattedPercentage}})",
+            "unlimited": "გამოყენებულია {{formattedUsed}} შეუზღუდავი საცავიდან"
+        },
+        "shared_quota_alert": {
+            "error": "გაზიარებული ანგარიშის საცავი სავსეა",
+            "warning": "გაზიარებული ანგარიშის საცავი თითქმის სავსეა"
+        },
+        "tooltip": "საცავის დეტალების ნახვა"
+    }
+}
