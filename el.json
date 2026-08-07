@@ -1,8 +1,8 @@
 {
     "quota": {
         "module": {
-            "files": "Αρχεία",
-            "mailbox": "E-mail, Ημερολόγια, Επαφές",
+            "files": "Files",
+            "mailbox": "Emails, Ημερολόγια, Επαφές",
             "wsc": "Συνομιλίες",
             "available": "Διαθέσιμος"
         },
