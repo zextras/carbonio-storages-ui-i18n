@@ -49,5 +49,21 @@
             "warning": "Shared account storage is almost full"
         },
         "tooltip": "View storage details"
+    },
+    "storages": {
+        "s3Connectors": {
+            "verifySuccess": {
+                "connectorVerified": "Connector verified and created",
+                "description": "Everything is validated, your connector are now on",
+                "connectorVerifiedOnly": "Connector verified",
+                "descriptionVerifiedOnly": "Everything is validated",
+                "connectorVerifiedAndUpdated": "Connector verified and updated"
+            },
+            "verifyProgress": {
+                "verifyingConnector": "Verifying connector",
+                "description": "Please wait while verifying and setting up connector",
+                "testConnectorDescription": "Please wait while testing your connector"
+            }
+        }
     }
 }
