@@ -49,5 +49,21 @@
             "warning": "Lo spazio di archiviazione dell'account condiviso è quasi esaurito"
         },
         "tooltip": "Visualizza i dettagli dello spazio di archiviazione"
+    },
+    "storages": {
+        "s3Connectors": {
+            "verifySuccess": {
+                "connectorVerified": "Connettore verificato e creato",
+                "description": "Tutto è stato convalidato, il tuo connettore è ora attivo",
+                "connectorVerifiedOnly": "Connettore verificato",
+                "descriptionVerifiedOnly": "Tutto è stato convalidato",
+                "connectorVerifiedAndUpdated": "Connettore verificato e aggiornato"
+            },
+            "verifyProgress": {
+                "verifyingConnector": "Verifica del connettore in corso",
+                "description": "Attendi mentre il connettore viene verificato e configurato",
+                "testConnectorDescription": "Attendi mentre il connettore viene testato"
+            }
+        }
     }
 }
