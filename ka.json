@@ -49,5 +49,21 @@
             "warning": "გაზიარებული ანგარიშის საცავი თითქმის სავსეა"
         },
         "tooltip": "საცავის დეტალების ნახვა"
+    },
+    "storages": {
+        "s3Connectors": {
+            "verifySuccess": {
+                "connectorVerified": "კონექტორი გადამოწმებულია და შეიქმნა",
+                "description": "ყველაფერი გადამოწმებულია. თქვენი კონექტორი ახლა ჩართულია",
+                "connectorVerifiedOnly": "კონექტორი გადამოწმებულია",
+                "descriptionVerifiedOnly": "ყველაფერი გადამოწმებულია",
+                "connectorVerifiedAndUpdated": "კონექტორი გადამოწმებული და განახლებულია"
+            },
+            "verifyProgress": {
+                "verifyingConnector": "მიმდინარეობს კონექტორის გადამოწმება",
+                "description": "მოითმინეთ. მიმდინარეობს კონექტორის გადამოწმება და მორგება",
+                "testConnectorDescription": "მოითმინეთ. მიმდინარეობს თქვენი კონექტორის შემოწმება"
+            }
+        }
     }
 }
