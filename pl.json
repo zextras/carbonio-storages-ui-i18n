@@ -49,5 +49,21 @@
             "warning": "Przestrzeń udostępnianych kont jest prawie pełna"
         },
         "tooltip": "Zobacz szczegóły przestrzeni"
+    },
+    "storages": {
+        "s3Connectors": {
+            "verifySuccess": {
+                "connectorVerified": "Connector został zweryfikowany i stworzony",
+                "description": "Wszystko zostało zatwierdzone, Twój connector jest włączony",
+                "connectorVerifiedOnly": "Connector został zweryfikowany",
+                "descriptionVerifiedOnly": "Wszystko zostało zatwierdzone",
+                "connectorVerifiedAndUpdated": "Connector został zweryfikowany i zaktualizowany"
+            },
+            "verifyProgress": {
+                "verifyingConnector": "Weryfikowanie connectora",
+                "description": "Weryfikowanie i konfigurowanie connectora, prosimy o cierpliwość",
+                "testConnectorDescription": "Testowanie Twojego connectora, prosimy o cierpliwość"
+            }
+        }
     }
 }
